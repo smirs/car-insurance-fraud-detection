@@ -10,5 +10,7 @@ To begin, exploratory data analysis was performed to identify relationships in t
 
 ![Age vs. Claims](image.png)
 
+Next, data cleansing was performed to prepare the data for modeling. 
+
 
 
