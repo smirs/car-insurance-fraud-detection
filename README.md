@@ -36,4 +36,10 @@ Random Forest
 
 CatBoost
 
-The CatBoost library is an additional 
+![CatBoost ROC Curve](image-9.png)
+
+![Catboost PR Curve](image-10.png)
+
+![CatBoost Feature Importances](image-11.png)
+
+XGBBoost
