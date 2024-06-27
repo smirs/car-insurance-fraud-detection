@@ -17,7 +17,7 @@ Next, data cleansing was performed to prepare the data for modeling. In order to
 
 ## Modeling
 
-Logistic Regression
+### Logistic Regression
 
 The first type of model performed was Logistic Regression. The best performing ROC and PR curves for this model were as follows:
 
@@ -31,7 +31,7 @@ The ROC AUC of 0.79 indicates decent performance of the model, but there is stil
 
 The feature importance bar chart shown above indicates that `Fault_ThirdParty` and `Fault_PolicyHolder` were the two features that were the largest predictors of fraud in the model.
 
-Random Forest
+### Random Forest
 
 The Random Forest model was performed next. The results were as follows:
 
@@ -45,12 +45,24 @@ The ROC AUC of 0.85 indicates strong performance of the model, but there is stil
 
 In contrast to Logistic Regression, `PolicyNumber` was seen to be the most important feature when using the Random Forest model.
 
-CatBoost
+### CatBoost
 
-![CatBoost ROC Curve](image-9.png)
+CatBoost is a framework that can solve for categorical features. The results for the best performing model were as follows: 
 
-![Catboost PR Curve](image-10.png)
+![CatBoost ROC Curve](image-17.png)
 
-![CatBoost Feature Importances](image-11.png)
+![Catboost PR Curve](image-18.png)
 
-XGBBoost
+These results showed significant improvement from the first two models, both in the ROC Curve and the PR Curve.
+
+![CatBoost Feature Importances](image-19.png)
+
+Like Random Forest, `PolicyNumber` was seen to be the most important feature when running the model using CatBoost. 
+
+### XG Boost Classifier
+
+XGBoost showed results similar to CatBoost:
+
+![XGBClassifier ROC Curve](image-20.png)
+
+![XGBClassifier PR Curve](image-21.png)
