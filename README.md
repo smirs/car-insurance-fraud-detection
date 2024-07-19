@@ -9,9 +9,10 @@ This model would enable insurance companies to target those claims that are most
 
 To begin, exploratory data analysis was performed to identify relationships in the data and to ascertain correlations between features and the incidence of fraud. Three relationships in particular demonstrated a clear relationship:
 
-![Fault vs. Claims](image-1.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Fault vs. Claims](image-1.png)  |  ![PoliceReportFiled vs. Claims](image-2.png)
 
-![PoliceReportFiled vs. Claims](image-2.png)
 
 ![Age vs. Claims](image.png)
 
